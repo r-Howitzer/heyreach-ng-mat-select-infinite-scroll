@@ -14,11 +14,11 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
-      "ng-mat-select-infinite-scroll": [
-        "dist/ng-mat-select-infinite-scroll"
+      "heyreach-ng-mat-select-infinite-scroll": [
+        "dist/heyreach-ng-mat-select-infinite-scroll"
       ],
-      "ng-mat-select-infinite-scroll/*": [
-        "dist/ng-mat-select-infinite-scroll/*"
+      "heyreach-ng-mat-select-infinite-scroll/*": [
+        "dist/heyreach-ng-mat-select-infinite-scroll/*"
       ]
     },
     "experimentalDecorators": true,
