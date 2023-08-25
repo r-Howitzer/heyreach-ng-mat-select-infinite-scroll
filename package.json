@@ -1,13 +1,13 @@
 {
-  "name": "ng-mat-select-infinite-scroll",
+  "name": "heyreach-ng-mat-select-infinite-scroll",
   "version": "5.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build ng-mat-select-infinite-scroll",
-    "develop": "ng build ng-mat-select-infinite-scroll --watch --configuration development",
+    "build": "ng build heyreach-ng-mat-select-infinite-scroll",
+    "develop": "ng build heyreach-ng-mat-select-infinite-scroll --watch --configuration development",
     "test": "ng test",
-    "npm_pack": "cd dist/ng-mat-select-infinite-scroll && npm pack",
+    "npm_pack": "cd dist/heyreach-ng-mat-select-infinite-scroll && npm pack",
     "package": "npm run build && npm run npm_pack"
   },
   "private": false,
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HaidarZ/ng-mat-select-infinite-scroll.git"
+    "url": "https://github.com/r-Howitzer/heyreach-ng-mat-select-infinite-scroll.git"
   }
 }

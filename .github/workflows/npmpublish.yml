@@ -13,15 +13,15 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://registry.npmjs.org/
+          registry-url: https://npm.pkg.github.com/
       # Skip post-install scripts here, as a malicious
       # script could steal NODE_AUTH_TOKEN.
       - run: npm ci --ignore-scripts
       - run: |
           npm run build
-          cp README.md ./dist/ng-mat-select-infinite-scroll/
-          cp LICENSE ./dist/ng-mat-select-infinite-scroll/
-          cd dist/ng-mat-select-infinite-scroll && npm pack
+          cp README.md ./dist/heyreach-ng-mat-select-infinite-scroll/
+          cp LICENSE ./dist/heyreach-ng-mat-select-infinite-scroll/
+          cd dist/heyreach-ng-mat-select-infinite-scroll && npm pack
           npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: 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
