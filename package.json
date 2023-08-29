@@ -1,6 +1,6 @@
 {
-  "name": "@r-Howitzer/ng-mat-select-infinite-scroll",
-  "version": "5.0.2",
+  "name": "@r-howitzer/ng-mat-select-infinite-scroll",
+  "version": "5.0.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

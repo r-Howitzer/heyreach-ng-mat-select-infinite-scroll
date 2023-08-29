@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {MatSelectInfiniteScrollDirective} from './mat-select-infinite-scroll.directive';
-import {MatLegacySelectModule as MatSelectModule} from '@angular/material/legacy-select';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [MatSelectInfiniteScrollDirective],
